@@ -2,13 +2,18 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "dashbord",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "backend": "file:"
+    "backend": "file:",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
   }
 }
